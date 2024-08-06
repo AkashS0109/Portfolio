@@ -1,0 +1,66 @@
+:root{
+    --background-color:#fff;
+    --btn-color:#0987f2;
+    --btn-text-color:#fff;
+    --project-card-bg:#ffffff00;
+    --text-color:#222;
+    --form-text-color:#555;
+    --footer-text-color:#888;
+    
+}
+[data-theme='dark']{
+    --background-color:#222;
+    --btn-color:#ffff;
+    --btn-text-color:#222;
+    --project-card-bg:#fff;
+    --text-color:#fff;
+    --form-text-color:#fff;
+    --footer-text-color:#bbb;
+}
+
+body{
+    background-color:var(--background-color);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px auto 60px;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+h1,h2,h3,p{
+color:var(--text-color);
+margin:0;
+padding:0;
+}
+
+h2,h3,p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+h1,h2{
+    text-transform: uppercase;
+    font-size: 30px;;
+    font-family:'FAMILY_NAME';
+    font-weight:900;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:39px;
+    font-weight:1000;
+}
+
+#myimg{
+    height:500px;
+    width:500x;
+    border-radius: 250px;
+}
+p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
